@@ -1,0 +1,47 @@
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Streamlit cache ---
+.streamlit/
+
+# --- Chroma vector database ---
+*.db
+*.sqlite
+*.bin
+*.hnsw
+chroma/
+db/
+D:/OLLAMA_MAIN/db/
+
+# --- Logs ---
+*.log
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Uploaded files ---
+uploads/
+*.pdf
+*.docx
+*.txt
+
+# --- Model files (HuggingFace, embeddings, etc.) ---
+models/
+huggingface/
+cache/
+*.pt
+*.bin
+
+# --- IDE folders ---
+.vscode/
+.idea/
